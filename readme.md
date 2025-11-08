@@ -1,6 +1,6 @@
 # Android IMU Digits Gesture Dataset
 
-**🌐 Language:** [English](#) | [中文](README_zh.md)
+**🌐 Language:** [English](#) | [中文](readme_zh.md)
 
 ## 📋 Dataset Description
 
