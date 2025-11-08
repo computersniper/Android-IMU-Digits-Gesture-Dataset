@@ -48,3 +48,42 @@ Android-IMU-Digits-Gesture-Dataset/
 │ └── .../  
 └── readme.md  
 └── readme_zh.md
+
+### 🔗 数据采集工具
+
+本数据集使用 [IMU-Visualizer](https://github.com/spianmo/IMU-Visualizer) 工具采集，该工具使用AGPL-3.0许可。
+
+#### 遵循许可
+- 本数据集的采集程序基于IMU-Visualizer，保留原有的AGPL-3.0许可和版权声明
+- 本数据集本身在MIT许可下发布，而收集工具仍在AGPL-3.0许可下
+- 特别感谢spianmo开放和维护IMU-Visualizer项目
+
+## 📖 引用
+
+如果您在研究中使用此数据集，请同时引用：
+
+### 本数据集:
+```bibtex
+@misc{android_imu_digits_gesture_dataset,
+  title = {Android IMU Digits Gesture Dataset},
+  author = {Cai Jiechao},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/computersniper/Android-IMU-Digits-Gesture-Dataset}},
+  note = {Dataset collected using IMU-Visualizer tool (AGPL-3.0 Licensed)}
+}
+```
+
+### 数据采集工具:
+```bibtex
+@misc{imu_visualizer
+  author = {spianmo},
+  title = {IMU-Visualizer},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/spianmo/IMU-Visualizer}},
+  note = {AGPL-3.0 Licensed}
+}
+```
