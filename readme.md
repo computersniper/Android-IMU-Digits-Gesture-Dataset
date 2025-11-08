@@ -18,7 +18,7 @@ The Android IMU Digits Gesture Dataset comprises time-series data of digits 0-9 
 - **Hand**: Right-hand
 
 
-### File naming format
+### ⚙️File naming format
 `imu_complete_data_[Number]_[YYYYMMDD_HHmmss].csv`
 
 Example：
@@ -46,3 +46,43 @@ Android-IMU-Digits-Gesture-Dataset/
 │ └── .../  
 └── readme.md  
 └── readme_zh.md
+
+### 🔗 Data Collection Tool
+
+This dataset was collected using the [IMU-Visualizer](https://github.com/spianmo/IMU-Visualizer) tool, which is licensed under the **AGPL-3.0 License**.
+
+#### License Compliance
+- The data collection scripts used are based on IMU-Visualizer
+- Original AGPL-3.0 license and copyright notices are preserved
+- This dataset itself is distributed under MIT License, while the collection tools remain under AGPL-3.0
+- Special thanks to spianmo for creating and maintaining the IMU-Visualizer project
+
+## 📖 Citation
+
+If you use this dataset in your research, please cite both:
+
+### This Dataset:
+```bibtex
+@misc{android_imu_digits_gesture_dataset,
+  title = {Android IMU Digits Gesture Dataset},
+  author = {Cai Jiechao},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/computersniper/Android-IMU-Digits-Gesture-Dataset}},
+  note = {Dataset collected using IMU-Visualizer tool (AGPL-3.0 Licensed)}
+}
+```
+
+### Data collection tool:
+```bibtex
+@misc{imu_visualizer
+  author = {spianmo},
+  title = {IMU-Visualizer},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/spianmo/IMU-Visualizer}},
+  note = {AGPL-3.0 Licensed}
+}
+```
