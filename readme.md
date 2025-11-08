@@ -15,7 +15,7 @@ The Android IMU Digits Gesture Dataset comprises time-series data of digits 0-9 
 - **Sample size**: 0-9, 50 samples for each gesture, totaling 500 samples
 - **Sample duration**: 5 seconds per sample
 - **Acquisition Frequency**: ~100Hz
-- **Hand**： Right-hand
+- **Hand**: Right-hand
 
 
 ### File naming format
