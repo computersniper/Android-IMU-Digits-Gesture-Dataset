@@ -1,47 +1,48 @@
 # Android IMU Digits Gesture Dataset
 
-## 📋 数据集描述
+**🌐 Language:** [English](#) | [中文](README_zh.md)
 
-这是一个使用OnePlus 7T手机IMU传感器采集的手势数字姿势数据集。数据集包含0-9数字手势的IMU传感器数据，适用于手势识别、动作分类等机器学习任务。
+## 📋 Dataset Description
 
-### 基本信息
-- **总样本数**: 500个CSV文件
-- **手势类别**: 数字0-9
-- **每个数字样本数**: 50个
-- **采集时长**: 每个样本5秒
-- **采样频率**: ~100Hz
-### 🎯 数据集特点
-- **设备**: OnePlus 7T
-- **传感器**: 9轴IMU（加速度计、陀螺仪、磁力计）
-- **数据格式**: CSV文件
-- **样本数量**: 0-9 每个手势50个样本 总共500个样本
-- **采集频率**: ~100Hz
-- **样本时长**: 每个样本5秒
+The Android IMU Digits Gesture Dataset comprises time-series data of digits 0-9 hand gestures, collected from the IMU sensors (accelerometer, gyroscope, and magnetometer) of a OnePlus 7T smartphone. This dataset is suitable for gesture recognition, human-computer interaction (HCI), activity classification, and time-series analysis tasks using machine learning models.
 
-### 文件命名格式
-`imu_complete_data_[数字]_[时间戳].csv`
+### 🎯 Dataset information
+- **Device**: OnePlus 7T
+- **Sensor**: 9-axis IMU (accelerometer, gyroscope, and magnetometer)
+- **Gestures**: Numbers0-9
+- **Data format**: csv file
+- **Total sample size**: 500 csv files
+- **Sample size**: 0-9, 50 samples for each gesture, totaling 500 samples
+- **Sample duration**: 5 seconds per sample
+- **Acquisition Frequency**: ~100Hz
+- **Hand**： Right-hand
 
-示例：
-- `imu_complete_data_0_20251106_211505.csv` - 数字0的手势样本
-- `imu_complete_data_1_20251106_211432.csv` - 数字1的手势样本
 
-### 📊 数据格式
-每个CSV文件包含以下列：
-- `session_id`: 会话标识符
-- `timestamp`: 时间戳（毫秒）
-- `label`: 手势标签（0-9）
-- `quaternion_w, x, y, z`: 四元数数据
-- `position_x, y, z`: 位置数据
-- `accelerometer_x, y, z`: 加速度计数据
-- `gyroscope_x, y, z`: 陀螺仪数据
-- `magnetometer_x, y, z`: 磁力计数据
-- `linear_acceleration_x, y, z`: 线性加速度
-- `gravity_x, y, z`: 重力数据
+### File naming format
+`imu_complete_data_[Number]_[YYYYMMDD_HHmmss].csv`
 
-### 🗂️ 文件结构
-Android-IMU-Digits-Gesture-Dataset/
-├── data/
-│ ├── imu_complete_data_0_20251106_211505.csv # 数字0手势数据
-│ ├── imu_complete_data_1_20251106_212322.csv # 数字1手势数据
-│ └── .../
-└── readme.md
+Example：
+- `imu_complete_data_0_20251106_211505.csv` - A gesture sample of the number 0
+- `imu_complete_data_1_20251106_211432.csv` - A gesture sample of the number 1
+
+### 📊 Data format
+Each csv file contains the following:
+- `session_id`: Session identifier
+- `timestamp`: Timestamp (milliseconds)
+- `label`: Gesture label (0-9)
+- `quaternion_w, x, y, z`: Quaternion data
+- `position_x, y, z`: Position data
+- `accelerometer_x, y, z`: Accelerometer data
+- `gyroscope_x, y, z`: Gyrosocope data
+- `magnetometer_x, y, z`: Magnetometer data
+- `linear_acceleration_x, y, z`: Linear acceleration data
+- `gravity_x, y, z`: Gravity data
+
+### 🗂️ Dataset Structure
+Android-IMU-Digits-Gesture-Dataset/  
+├── data/  
+│ ├── imu_complete_data_0_20251106_211505.csv # Number 0 gesture data  
+│ ├── imu_complete_data_1_20251106_212322.csv # Number 1 gesture data  
+│ └── .../  
+└── readme.md  
+└── readme_zh.md
